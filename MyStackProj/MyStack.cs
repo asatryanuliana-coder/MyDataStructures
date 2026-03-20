@@ -3,6 +3,7 @@ using System.Collections;
 
 namespace MyStackProj;
 
+
 public class MyStack<T> : IEnumerable<T>
 {
     public MyLinkedList<T> MyStackItems = new MyLinkedList<T>();

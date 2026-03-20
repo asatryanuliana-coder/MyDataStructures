@@ -1,5 +1,10 @@
 <Solution>
+  <Project Path="MyArrayProj/MyStackArrayProj.csproj" />
+  <Project Path="MyBinaryTreeProj/MyBinaryTreeProj.csproj" Id="c8818c70-f47d-4a15-8de9-cc4950de7b23" />
+  <Project Path="MyHashtable/MyHashtable.csproj" Id="c82692f7-be9c-4675-a481-88f7869130d1" />
   <Project Path="MyLinkedListNode/MyLinkedListProj.csproj" />
+  <Project Path="MyQueueProj/MyQueueProj.csproj" />
   <Project Path="MyStackProj/MyStackProj.csproj" />
+  <Project Path="PostfixCallculatorPrj/PostfixCallculatorPrj.csproj" />
   <Project Path="Testing_DataStructures/Testing_DataStructures.csproj" />
 </Solution>
