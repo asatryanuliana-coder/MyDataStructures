@@ -162,7 +162,6 @@ public class MyLinkedList<T> : ICollection<T>
                 current = current.Next;
             }
 
-            //Disconnect the tail
             current.Next = null;
             Tail = current;
         }
