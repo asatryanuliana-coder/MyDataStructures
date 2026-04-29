@@ -1,10 +1,13 @@
 <Solution>
-  <Project Path="MyArrayProj/MyStackArrayProj.csproj" />
-  <Project Path="MyBinaryTreeProj/MyBinaryTreeProj.csproj" Id="c8818c70-f47d-4a15-8de9-cc4950de7b23" />
-  <Project Path="MyHashtable/MyHashtable.csproj" Id="c82692f7-be9c-4675-a481-88f7869130d1" />
-  <Project Path="MyLinkedListNode/MyLinkedListProj.csproj" />
-  <Project Path="MyQueueProj/MyQueueProj.csproj" />
+  <Project Path="MyBinaryTreeProj/MyBinaryTreeProj.csproj" />
+  <Project Path="MyBubbleProj/MyBubbleSortProj.csproj" Id="0fc1a16a-592a-4a82-89a1-acbff3fc6a31" />
+  <Project Path="MyHashtableAlgorithms/MyHashTableAlgorithms.csproj" />
+  <Project Path="MyLinkedListProj/MyLinkedListProj.csproj" />
+  <Project Path="MyQueue/MyQueueProj.csproj" />
+  <Project Path="MySetProj/MySetProject.csproj" />
+  <Project Path="MySetWPF1/MySetWPF1.csproj" Id="5dcc3b2e-776e-4c6c-bd33-53cf2f1b3764" />
+  <Project Path="MyStackArrayProj/MyStackArrayProj.csproj" />
   <Project Path="MyStackProj/MyStackProj.csproj" />
-  <Project Path="PostfixCallculatorPrj/PostfixCallculatorPrj.csproj" />
-  <Project Path="Testing_DataStructures/Testing_DataStructures.csproj" />
+  <Project Path="PostfixProj/PostfixProj.csproj" />
+  <Project Path="Texting/Texting.csproj" />
 </Solution>

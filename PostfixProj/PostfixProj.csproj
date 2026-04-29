@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyLinkedListProj\MyLinkedListProj.csproj" />
+    <ProjectReference Include="..\MyStackProj\MyStackProj.csproj" />
   </ItemGroup>
 
 </Project>

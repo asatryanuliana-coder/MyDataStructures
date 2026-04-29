@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MyLinkedListProj\MyLinkedListProj.csproj" />
-  </ItemGroup>
-
 </Project>
