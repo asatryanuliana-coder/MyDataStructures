@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MySetProj\MySetProject.csproj" />
+    <ProjectReference Include="..\MyStackProj\MyStackProj.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,5 @@
 ﻿using System.Collections;
 
-using MyLinkedListProj;
-
 namespace MySetProject;
 
 public class MySet<T> : IEnumerable<T> where T : IComparable<T>

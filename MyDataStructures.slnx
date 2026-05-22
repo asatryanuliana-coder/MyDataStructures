@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="MyBinaryTreeProj/MyBinaryTreeProj.csproj" />
   <Project Path="MyBubbleProj/MyBubbleSortProj.csproj" Id="0fc1a16a-592a-4a82-89a1-acbff3fc6a31" />
+  <Project Path="MyChessProj/MyChessProj.csproj" Id="7f6d9372-3145-48ab-8180-c3fb8b47124f" />
   <Project Path="MyHashtableAlgorithms/MyHashTableAlgorithms.csproj" />
   <Project Path="MyLinkedListProj/MyLinkedListProj.csproj" />
   <Project Path="MyQueue/MyQueueProj.csproj" />
@@ -9,5 +10,5 @@
   <Project Path="MyStackArrayProj/MyStackArrayProj.csproj" />
   <Project Path="MyStackProj/MyStackProj.csproj" />
   <Project Path="PostfixProj/PostfixProj.csproj" />
-  <Project Path="Texting/Texting.csproj" />
+  <Project Path="Texting/Testing.csproj" />
 </Solution>

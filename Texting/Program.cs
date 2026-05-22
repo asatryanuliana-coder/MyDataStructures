@@ -13,13 +13,13 @@ namespace Testing_DataStructures;
 public class Program
 {
     private static void Main()
+
+    #region bubblessort
     {
         Console.WriteLine("---TESTING--");
 
-        #region BubbleSort
-        TestBubbleSort();
+                TestBubbleSort();
       
-
         static void TestBubbleSort()
        
         {
@@ -31,20 +31,74 @@ public class Program
                 Console.WriteLine(i);
 
         }
-        #endregion BubbleSort
+#endregion bubblesort
 
-        #region SelectionSort
-        TestSelectionSort();
+#region SelectionSort
+        Console.WriteLine("___SelectionSort___");
+
+        var selectionSort = new MySelectionSort<int>();
+        int[] selectionArray = { 11, 8, 20, 1, 10 };
+
+        selectionSort.Sort(selectionArray);
+
+        Console.WriteLine("Sorted Array:");
+        foreach (var item in selectionArray)
         {
-            Console.WriteLine("---Selection Sort---");
-            int[] X = { 8, 5, 3, 4, 2, 8, 6877 };
-            MySelectionSort<int> sst = new MySelectionSort<int>();
-            sst.Sort(X);
-            foreach(int i in X) 
-                Console.WriteLine(i);
+            Console.Write(item + " ");
         }
+        Console.WriteLine();
+#endregion
 
-        #endregion SelectionSort
+
+#region isertation
+        Console.WriteLine("___InsertionSort___");
+
+        var insertionSort = new MyInsertationSort<int>();
+        int[] insertionArray = { 5, 18, 9, 1, 0 };
+        insertionSort.Sort(insertionArray);
+
+        Console.WriteLine("Sorted Array:");
+        foreach (var item in insertionArray)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+
+#endregion insertation 
+
+#region MergeSort
+        Console.WriteLine("___MergeSort___");
+
+        var mergeSort = new MergeSort<int>();
+        int[] mergeArray = { 5, 18, 9, 1, 0 };
+
+        mergeSort.Sort(mergeArray);
+
+        Console.WriteLine("Sorted Array:");
+        foreach (var item in mergeArray)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+#endregion
+
+#region QuickSort
+        Console.WriteLine("___QuickSort___");
+
+        var quickSort = new MyQuickSort<int>();
+        int[] array = { 8, 2, 4, 7, 1, 3, 9, 6, 5 };
+
+        quickSort.Sort(array);
+
+        Console.WriteLine("Sorted Array:");
+        foreach (var item in array)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+#endregion
+
+
         //#region LinkedList
         //var linkedList = new MyLinkedList<string>();
 
@@ -205,31 +259,21 @@ public class Program
         //Console.WriteLine("---Hash Table---");
         //string testString = "Lorem ipsum dolor";
 
-        //// Additive Hash
+        // Additive Hash
         //int additive = MyHashTable.AdditiveHash(testString);
         //Console.WriteLine($"Additive Hash of \"{testString}\"  {additive}");
 
-        //// Folding Hash
+        // Folding Hash
         //int folding = MyHashTable.MyFoldingHash(testString);
         //Console.WriteLine($"Folding Hash of \"{testString}\" {folding}");
 
-        //// DJB2 Hash
-        //int djb2 = MyHashTable.Djb2(testString);
-        //Console.WriteLine($"DJB2 Hash of \"{testString}\"  {djb2}");
 
         //#endregion HashTable
 
-
-
-
-
-
+        
 
 
     }
 
-    private static void TestSelectionSort()
-    {
-        throw new NotImplementedException();
-    }
+    
 }

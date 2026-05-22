@@ -13,6 +13,7 @@
     <ProjectReference Include="..\MyHashtableAlgorithms\MyHashTableAlgorithms.csproj" />
     <ProjectReference Include="..\MyLinkedListProj\MyLinkedListProj.csproj" />
     <ProjectReference Include="..\MyQueue\MyQueueProj.csproj" />
+    <ProjectReference Include="..\MySetProj\MySetProject.csproj" />
     <ProjectReference Include="..\MyStackArrayProj\MyStackArrayProj.csproj" />
     <ProjectReference Include="..\MyStackProj\MyStackProj.csproj" />
     <ProjectReference Include="..\PostfixProj\PostfixProj.csproj" />
